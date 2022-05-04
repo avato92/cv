@@ -12,13 +12,13 @@ a {
 
 body {
     display: flex;
+    height: 100%;
 }
 
 .info {
     background-color: #3d3d3d;
     color: #fff;
     padding: 16px;
-    height: 937px;
 }
 .info__personalData{
     display: flex;
@@ -63,6 +63,23 @@ body {
     color: #17c0eb;
 }
 
+.technologies{
+    margin-top: 16px;
+}
+
+.tech__container {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.tech__img {
+    margin: 6px;
+    width: 75px;
+    height: 75px;
+}
+
 
 .main {
     background-color: #4b4b4b;
@@ -91,14 +108,33 @@ h1 > span, h2 > span {
     color: #ffaf40;
 }
 
+.title-close {
+    margin-top: 16px;
+}
+
+.studies {
+    margin-top: 16px;
+}
+
+.studies > .text__key {
+    margin-left: 60px;
+}
+
 .text__const {
     color: #cd84f1;
 }
 .text__key {
     color:#17c0eb;
-    margin-left: 60px;
 }
 
 .text__value {
     color: #ffaf40;
+}
+
+.experience {
+    margin-top: 16px;
+}
+
+.highligth {
+    color: #ff4d4d;
 }
