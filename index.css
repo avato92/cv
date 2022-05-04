@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    color: #17c0eb;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+}
+
+.info {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 16px;
+    height: 937px;
+}
+.info__personalData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.info__mainText {
+    margin-top: 16px;
+    text-align: end;
+}
+.info__text-primary{
+    font-size: 24px;
+}
+
+.info__text-secundary {
+    font-size: 20px;
+    color: #3ae374;
+}
+
+.info__socialInfo {
+    margin-top: 16px;
+}
+
+.info__card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info__icon {
+    width: 40px;
+    height: 40px;
+}
+
+.info__text-ternary {
+    margin-left: 16px;
+    color: #17c0eb;
+}
+
+
+.main {
+    background-color: #4b4b4b;
+    color: #fff;
+    padding: 24px;
+}
+
+h1, h2 {
+    color: #ffaf40;
+}
+
+h1 > span, h2 > span {
+    color: #17c0eb;
+}
+
+.about {
+    margin-top: 16px;
+}
+.longText, .text__json {
+    line-height: 32px;
+    letter-spacing: 4px;
+    margin-top: 16px;
+    padding-left: 60px;
+}
+.longText > span {
+    color: #ffaf40;
+}
+
+.text__const {
+    color: #cd84f1;
+}
+.text__key {
+    color:#17c0eb;
+    margin-left: 60px;
+}
+
+.text__value {
+    color: #ffaf40;
+}
